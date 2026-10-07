@@ -60,6 +60,7 @@ button:focus-visible {
 
 .section-titre {
   max-width: 640px;
+  color: #000000;
   margin: 0 auto 64px;
   text-align: center;
 }
@@ -76,6 +77,7 @@ button:focus-visible {
 
 .section-titre p {
   color: #fafbfa;
+  color: #000000;
 }
 
 .sur-titre {
@@ -100,21 +102,32 @@ button:focus-visible {
 .bouton-principal {
   background-color: #000000;
   border: 1px solid #000000;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 150ms ease-in-out;
   color: #FFFFFF;
 }
 
 .bouton-principal:hover {
   background-color: #000000;
+  scale: 1.05;
 }
 
 .bouton-secondaire {
   background-color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 150ms ease-in-out;
+  color: #FFFFFF;
   border: 1px solid #000000;
   color: #000000;
 }
 
 .bouton-secondaire:hover {
-  background-color: #F3F4F6;
+  background-color: #ffffff;
+  scale: 1.05;
 }
 
 .cartes {
@@ -127,7 +140,7 @@ button:focus-visible {
   background-color: #d21818;
   border: 1px solid #E5E7EB;
   border-radius: 12px;
-  box-shadow: 0 1px 3px rgba(15, 183, 10, 0.08);
+  box-shadow: 0 1px 3px rgba(247, 245, 245, 0.08);
 }
 
 .icone {
@@ -381,7 +394,7 @@ button:focus-visible {
 
 .programme-corps p {
   font-size: 15px;
-  color: #4B5563;
+  color: #ffffff;
 }
 
 .etiquette {
@@ -430,7 +443,7 @@ button:focus-visible {
 }
 
 .formules {
-  margin-top: 96px;
+  margin-top: 150px;
 }
 
 .formule {
@@ -466,7 +479,7 @@ button:focus-visible {
 }
 
 .formule-liste {
-  flex: 1;
+  flex: 10;
   margin-bottom: 24px;
 }
 
