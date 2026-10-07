@@ -143,6 +143,10 @@ button:focus-visible {
   box-shadow: 0 1px 3px rgba(247, 245, 245, 0.08);
 }
 
+.carte:hover {
+  scale: 1.05;
+}
+
 .icone {
   width: 48px;
   height: 48px;
