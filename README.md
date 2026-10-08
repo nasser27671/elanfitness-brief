@@ -6,5 +6,6 @@ Remplacement et ajout de nouvelles images
 Ajout d'animations sur les butons
 Modification des icones
 Adaptation du site pour etre responsive sur different peripherique
+![Alt text](img/icon.svg)   
 
-<img href="img/icon.svg">
+
