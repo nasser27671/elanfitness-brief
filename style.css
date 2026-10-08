@@ -36,7 +36,7 @@ img {
 }
 
 a:focus-visible,
-button:focus-visible {
+overton:focus-visible {
   outline: 3px solid #FF6B2C;
   outline-offset: 2px;
 }
