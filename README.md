@@ -4,13 +4,12 @@ Transformation du site en site multipage
 Modification du theme et des couleurs du site
 Remplacement et ajout de nouvelles images
 Ajout d'animations sur les butons
-Modification des icones
 Adaptation du site pour etre responsive sur different peripherique
-![Alt text](img/icon.svg)   
 
 
-<<<<<<< HEAD
-=======
+
+Modification des icones suivantes:
+
 ![boxe](img/boxe.svg)
 ![cardio](img/cardio.svg)
 ![equipe](img/equipe.svg)
@@ -27,4 +26,3 @@ Adaptation du site pour etre responsive sur different peripherique
 ![musculation](img/musculation.svg)
 ![plan-fond](img/plan-fond.svg)
 ![yoga](img/yoga.svg)
->>>>>>> cd6e23b (pics upload)
