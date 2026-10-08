@@ -7,9 +7,12 @@ Ajout d'animations sur les butons
 Adaptation du site pour etre responsive sur different peripherique
 
 
+<<<<<<< HEAD
 
 Modification des icones suivantes:
 
+=======
+>>>>>>> c0be950 (about page banner fix)
 ![boxe](img/boxe.svg)
 ![cardio](img/cardio.svg)
 ![equipe](img/equipe.svg)
@@ -25,4 +28,8 @@ Modification des icones suivantes:
 ![icone-telephone](img/icone-telephone.svg)
 ![musculation](img/musculation.svg)
 ![plan-fond](img/plan-fond.svg)
+<<<<<<< HEAD
 ![yoga](img/yoga.svg)
+=======
+![yoga](img/yoga.svg)
+>>>>>>> c0be950 (about page banner fix)
