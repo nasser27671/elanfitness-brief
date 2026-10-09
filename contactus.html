@@ -85,16 +85,20 @@
           <p class="logo logo-clair">Élan Fitness</p>
           <p class="slogan">Ton énergie, ton rythme.</p>
         </div>
-        <nav aria-label="Navigation du pied de page">
-          <ul class="menu menu-pied">
-
-          <li><a target="#acceuil" href="index.html">Accueil</a></li>
-          <li><a target="#a-propos" href="about.html"> A propos</a></li>
-          <li><a target="#programmes" href="program.html">Programmes</a></li>
-          <li><a target="#contactus" href="contactus.html" class="lien-actif">Contact us</a></li>
-          </ul>
-          
-        </nav>
+        <nav aria-label="Navigation principale">
+          <ul class="sidebar-menu">
+          <li><a target = "#accueil" href ="index.html">Accueil</a></li>
+          <li><a target = "#a-propos" href ="about.html" >À propos</a></li>
+          <li><a target = "#programmes" href ="program.html" >Programmes</a></li>
+          <li><a target = "#contact" href ="contactus.html" >Contact Us</a></li>
+          <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        </ul>
+          <li onclick=showSideBar()><a href="#" ><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
       </div>
       <div class="pied-bas">
         <p>Adresse : 12 rue des Palmiers, 20000 Casablanca</p>

@@ -16,11 +16,14 @@ body {
   background-color: #F7F8FA;
 }
 
-.sidebar-menu li a {
+.sidebar-menu a {
   font-family: 'Inter', Arial, sans-serif;
-  margin: 10px 3px;
+  display: flex;
+  font-weight: bold;
+  line-height: 5;
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
-  line-height: 1.5;
   color: #000000;
 }
 
@@ -567,6 +570,10 @@ overton:focus-visible {
 
 .sidebar-menu a {
   width: 100%;
+}
+
+.sidebar-menu a:hover {
+  color: #ffffff;
 }
 
 .slogan {
