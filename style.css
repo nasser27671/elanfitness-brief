@@ -601,23 +601,7 @@ overton:focus-visible {
   color: #94A3B8;
 }
 
-@media only screen and (max-width: 800px) {
-  .container {
-    width: 90%;
-  }
-
-  .contact-box {
-    flex-direction: column;
-  }
-
-  .contact-left, 
-  .contact-right {
-    width: 100%;
-  }
-}
-
-
-@media (max-width: 992px) {
+@media (max-width: 1023px) {
   .hero-contenu,
   .apropos-contenu,
   .cartes,
@@ -644,15 +628,33 @@ overton:focus-visible {
     text-align: center;
     gap: 16px;
   }
-.en-tete-contenu {
-  height: auto !important;
-  padding: 14px 20px;
-  flex-direction: column;
-  gap: 12px;
+
+  .en-tete-contenu {
+    height: auto !important;
+    padding: 14px 20px;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 16px; /* Fixed '16xp' syntax error */
+  }
 }
-.menu {
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px 16xp;
-}
+
+
+@media (max-width: 767px) {
+  .container {
+    width: 90%;
+  }
+
+  .contact-box {
+    flex-direction: column;
+  }
+
+  .contact-left, 
+  .contact-right {
+    width: 100%;
+  }
 }
