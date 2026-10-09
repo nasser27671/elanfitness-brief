@@ -16,6 +16,14 @@ body {
   background-color: #F7F8FA;
 }
 
+.sidebar-menu li a {
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 10px 3px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+
 h1, h2, h3, h4 {
   font-family: 'Poppins', Arial, sans-serif;
   color: #000000;
@@ -82,7 +90,7 @@ overton:focus-visible {
 
 .sur-titre {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: bold;
   color: #000000;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -536,6 +544,29 @@ overton:focus-visible {
 
 .logo-clair {
   color: #FFFFFF;
+}
+
+.sidebar-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: #c00a0a;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sidebar-menu li {
+  width: 100%;
+}
+
+.sidebar-menu a {
+  width: 100%;
 }
 
 .slogan {
